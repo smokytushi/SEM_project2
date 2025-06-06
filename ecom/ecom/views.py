@@ -21,7 +21,7 @@ def home_view(request):
     
 
 
-#for showing login button for admin(by sumit)
+#For showing login button for admin(by sumit)
 def adminclick_view(request):
     if request.user.is_authenticated:
         return HttpResponseRedirect('afterlogin')
